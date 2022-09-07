@@ -1,6 +1,6 @@
 <?php
 
-include 'config.php';
+include 'api.php';
 
 //Include header
 
@@ -162,40 +162,6 @@ $b2c_testm = $cached_array[0]->cms_data[4];
                                 </div>
 
                                 <p class="ts-customer-testimonial-description"><?=$testm[$testm_count]->testm ?></p>
-
-                                <ul class="ts-rating-list">
-
-                                    <li class="ts-rating-item">
-
-                                        <i class="fa fa-star"></i>
-
-                                    </li>
-
-                                    <li class="ts-rating-item">
-
-                                        <i class="fa fa-star"></i>
-
-                                    </li>
-
-                                    <li class="ts-rating-item">
-
-                                        <i class="fa fa-star"></i>
-
-                                    </li>
-
-                                    <li class="ts-rating-item">
-
-                                        <i class="fa fa-star"></i>
-
-                                    </li>
-
-                                    <li class="ts-rating-item">
-
-                                    <i class="fa fa-star-half-o"></i>
-
-                                    </li>
-
-                                </ul>
 
                             </div>
 

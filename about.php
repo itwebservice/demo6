@@ -210,8 +210,7 @@ include 'layouts/header.php';
 
             </div>
 
-
-            </div>
+            
 
         </div>
 
@@ -252,6 +251,7 @@ include 'layouts/header.php';
                     <div class="abt-btn">
                     <a href="#" class="btn btn-primary">Read More</a>
                     </div>
+
                 </div>
 
             </div>
@@ -263,6 +263,8 @@ include 'layouts/header.php';
 </section>
 
 <!-- Special Section End -->
+
+
 
 
 <script type="text/javascript" src="js/scripts.js"></script>

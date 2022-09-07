@@ -120,7 +120,7 @@ include 'layouts/header.php';
 
                                 <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 
-                                Opening-1
+                                Opening -1
 
                                 </button>
 
@@ -134,7 +134,6 @@ include 'layouts/header.php';
 
                             <div class="card-body">
 
-                                
 
                             </div>
 
@@ -150,7 +149,7 @@ include 'layouts/header.php';
 
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
 
-                                Opening-2
+                                Opening -2
 
                                 </button>
 
@@ -161,8 +160,6 @@ include 'layouts/header.php';
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
 
                             <div class="card-body">
-
-                               
 
                             </div>
 
@@ -178,7 +175,7 @@ include 'layouts/header.php';
 
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
 
-                                Opening-3
+                                Opening -3
 
                                 </button>
 
@@ -189,7 +186,6 @@ include 'layouts/header.php';
                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
 
                             <div class="card-body">
-
 
                             </div>
 
