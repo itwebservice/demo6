@@ -224,7 +224,7 @@ foreach ($int_dest_id_arr as $int_id) {
     <!-- COMMON CSS -->
 
     <link id="main-style" rel="stylesheet/less" type="text/css"
-        href="<?php echo BASE_URL_B2C; ?>css/LESS/itours-styles.less" />
+        href="<?php echo BASE_URL_B2C; ?>css/LESS/itours-styles.php" />
 
     <script src="<?php echo BASE_URL_B2C; ?>js/less.js"></script>
 
