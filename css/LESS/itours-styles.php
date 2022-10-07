@@ -22,7 +22,7 @@
 @import "./_library.less";
 
 .top-header .header-logo img {
-max-height: 60px;
+max-height: 75px;
 }
 
 /* 1 Reset */
@@ -2496,7 +2496,7 @@ padding-top: 0;
 }
 
 .pad-top {
-padding-top: 18px;
+padding-top: 30px;
 }
 
 .ts-best-place-enquiry-content {
@@ -3266,7 +3266,6 @@ margin-bottom: 0;
 text-transform: uppercase;
 overflow: hidden;
 text-overflow: ellipsis;
-white-space: pre;
 }
 
 .t-package-img-link img {
