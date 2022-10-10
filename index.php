@@ -779,7 +779,7 @@ $date1 = str_replace('-', '/', $date);
                                 </div>
                                 <div class="tips-points-details">
                                     <h5 class="tips-details-title">Basic knowledge of destination</h5>
-                                    <p class="tips-detalis-discription mb-0">Be prepare about the dstination, distance,
+                                    <p class="tips-detalis-discription mb-0">Be prepare about the destination, distance,
                                         route</p>
                                 </div>
                             </div>
@@ -908,24 +908,8 @@ $('.logo-slider').slick({
     slidesToScroll: 1,
     dots: true,
     arrows: true,
-    autoplay: true,
     autoplayspeed: 2000,
-    infinite: true,
-    responsive: [{
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }
-    ]
+    infiniite: true
 });
 </script>
 <!--End partner slider script-->
