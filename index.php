@@ -1,6 +1,6 @@
 <?php
 
-include "api.php";
+include "config.php";
 
 
 
@@ -411,7 +411,7 @@ $date1 = str_replace('-', '/', $date);
     <div class="container">
         <div class="t-hotels-content">
             <div class="t-package-header">
-                <h2 class="t-package-title section-title">Explore <span>Popular hotels</span></h2>
+                <h2 class="t-package-title section-title">Explore <span>Popular Hotels</span></h2>
                 <div class="section-title-line text-center">
                     <div class="t-package-style"></div>
                     <div class="t-package-style-line"></div>
@@ -485,8 +485,8 @@ $date1 = str_replace('-', '/', $date);
                             Experienced tourism professionals serve tourists better as per their convenience.</p>
                         <!--<h5 class="deals-helpline">Help line: +001 21745 12345</h5>-->
                         <div class="deals-book-btns">
-                            <a href="about.php" class="btn">ABOUT US</a>
-                            <a href="contact.php" class="btn">CONTACT NOW</a>
+                            <a href="about.php" target="_blank" class="btn">ABOUT US</a>
+                            <a href="contact.php" target="_blank" class="btn">CONTACT US</a>
                         </div>
                     </div>
                 </div>
@@ -521,16 +521,16 @@ $date1 = str_replace('-', '/', $date);
             <div class="events-table">
                 <div class="events-table-input">
                     <input type="text" id="myInput" class="form-control" onkeyup="filterSearch()"
-                        placeholder="Search Event Name.." title="Type in a name">
+                        placeholder="Search Tour Name.." title="Type in a name">
                 </div>
                 <table id="myTable" class="table events-table-start">
                     <thead>
                         <tr>
-                            <th scope="col" class="text-center">#</th>
-                            <th scope="col">Event Name</th>
+                            <th scope="col" class="text-center">Sr.No</th>
+                            <th scope="col">Tour Name</th>
                             <th scope="col" class="table-hader-title">Days</th>
                             <th scope="col" class="table-hader-title">Nights</th>
-                            <th scope="col" class="table-hader-title">Location</th>
+                            <th scope="col" class="table-hader-title">Destination</th>
                             <th scope="col">Book</th>
                         </tr>
                     </thead>
@@ -624,7 +624,7 @@ $date1 = str_replace('-', '/', $date);
     <div class="container">
         <div class="branding-content">
             <div class="t-package-header">
-                <h2 class="t-package-title section-title">Our <span>Blog</span> </h2>
+                <h2 class="t-package-title section-title">Our <span>Blogs</span> </h2>
                 <div class="section-title-line text-center">
                     <div class="t-package-style"></div>
                     <div class="t-package-style-line"></div>
@@ -673,8 +673,8 @@ $date1 = str_replace('-', '/', $date);
 <!-- Blog Section End -->
 
 <!-- Partner Slider Start -->
-<div class="container mt-5 mb-5 pt-5 pb-5">
-    <h1 class="section-title text-center mt-5 mb-5">Our <span>Partners</span>
+<div class="container mt-2 mb-4 pt-2 pb-4">
+    <h1 class="section-title text-center mt-3 mb-3">Our <span>Partners</span>
 
         <?php
         $logos = json_decode($cached_array[0]->cms_data[0]->assoc_logos);

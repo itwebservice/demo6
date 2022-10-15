@@ -3609,6 +3609,7 @@ line-height: 24px;
 }
 
 .deals-book-btns a {
+margin: 5px;
 text-transform: uppercase;
 font-weight: 700;
 text-decoration: none;
