@@ -22,7 +22,7 @@
 @import "./_library.less";
 
 .top-header .header-logo img {
-max-height: 75px;
+max-height: 60px;
 }
 
 /* 1 Reset */
@@ -1929,7 +1929,7 @@ background: #ff0000;
 /***************** End Sticky social media *******************/
 
 /***************** Partner slider *******************/
-img{
+.logo-slider img{
 width: 100%;
 }
 
@@ -2496,7 +2496,7 @@ padding-top: 0;
 }
 
 .pad-top {
-padding-top: 30px;
+padding-top: 20px;
 }
 
 .ts-best-place-enquiry-content {
