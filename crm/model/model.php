@@ -28,13 +28,13 @@ $localIP = getHostByName(getHostName());
 
 // Create connection
 $servername = "localhost";
-$username = "itourscloud_demo6_u";
-$password = "B$%^X;[i?!M";
+$username = "root";
+$password = "";
 $db_name = "itourscloud_demo6";
 global $conn;
 $conn = new mysqli($servername, $username, $password, $db_name);
 
-define('BASE_URL', 'https://demo6.itourscloud.com/crm/');
+define('BASE_URL', 'http://localhost/demo6/crm/');
 
 mysqli_query($conn, "SET SESSION sql_mode = ''");
 $b2b_index_url = BASE_URL . 'Tours_B2B/view/index.php';
