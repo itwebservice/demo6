@@ -28,7 +28,7 @@ $date1 = str_replace('-', '/', $date);
         <?php } ?>
 
     </div>
-    <div class="main-booking-content">
+    <!-- <div class="main-booking-content">
         <div class="container">
             <div class="row">
                 <div class="col col-12 col-md-12 col-lg-6 col-xl-6">
@@ -131,7 +131,7 @@ $date1 = str_replace('-', '/', $date);
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </section>
 <!-- Main Booking Section End -->
 <!--Social Media icon sticky-->
@@ -215,7 +215,7 @@ $date1 = str_replace('-', '/', $date);
                         $package_fname = str_replace(' ', '_', $package_name);
 
                         $file_name = 'package_tours/' . $package_fname . '-' . $package->package_id . '.php';
-                        ?>
+                    ?>
                         <div class="col col-12 col-md-6 col-lg-4 col-xl-4">
                             <div class="t-package-card">
                                 <a target="_blank" href="<?= $file_name ?>">
@@ -225,7 +225,7 @@ $date1 = str_replace('-', '/', $date);
                                     <div class="t-package-img">
                                         <img src="<?= $package->main_img_url ?>" alt="" class="img-fluid">
                                         <div class="t-package-card-btn">
-                                            <span class="t-package-card-price btn"><?= !empty($package->tariff) ? $currency_code.' '.$package->tariff->cadult : $currency_code.' '.'0.00' ?>
+                                            <span class="t-package-card-price btn"><?= !empty($package->tariff) ? $currency_code . ' ' . $package->tariff->cadult : $currency_code . ' ' . '0.00' ?>
                                             </span>
                                             <a target="_blank" href="<?= $file_name ?>" class="btn btn-primary">View More</a>
                                         </div>
@@ -409,8 +409,8 @@ $date1 = str_replace('-', '/', $date);
             </div>
             <div class="row">
                 <?php foreach ($Apihotel as $hotel) {
-                    $image = ($hotel->hotel_image->hotel_pic_url!='') ? 'crm/' . substr($hotel->hotel_image->hotel_pic_url, 11) : 'images/hotel_general.png';
-                    ?>
+                    $image = ($hotel->hotel_image->hotel_pic_url != '') ? 'crm/' . substr($hotel->hotel_image->hotel_pic_url, 11) : 'images/hotel_general.png';
+                ?>
                     <div class="col col-12 col-md-12 col-lg-4 col-xl-4">
                         <div class="t-hotels-card">
                             <a target="_blank" onclick="get_tours_data('<?= $hotel->city_id ?>','3','<?= $hotel->hotel_id ?>')" style="cursor:pointer!important;">
@@ -482,7 +482,7 @@ $date1 = str_replace('-', '/', $date);
     <div class="container">
         <div class="events-content">
             <div class="t-package-header">
-                <h2 class="t-package-title section-title">EXPLORE  ALL <span>DESTINATION</span> TOURS</h2>
+                <h2 class="t-package-title section-title">EXPLORE ALL <span>DESTINATION</span> TOURS</h2>
                 <div class="section-title-line text-center">
                     <div class="t-package-style"></div>
                     <div class="t-package-style-line"></div>
@@ -561,7 +561,7 @@ $date1 = str_replace('-', '/', $date);
         <div class="row">
             <?php foreach ($Apiactivity as $activity) {
 
-                $url = ($activity->images[0]->image_url != '') ? "crm/".substr($activity->images[0]->image_url, 6) : 'images/activity_default.png';?>
+                $url = ($activity->images[0]->image_url != '') ? "crm/" . substr($activity->images[0]->image_url, 6) : 'images/activity_default.png'; ?>
                 <div class="col col-12 col-md-6">
                     <div class="sight-card">
                         <div class="row">
@@ -827,8 +827,6 @@ $date1 = str_replace('-', '/', $date);
         }, false);
 
     })();
-
-
 </script>
 
 <?php
@@ -963,72 +961,71 @@ include 'layouts/footer.php';
 </script>
 
 <script>
-function filterSearch() {
-    var input, filter, found, table, tr, td, i, j;
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();
-    table = document.getElementById("myTable");
-    tr = table.getElementsByTagName("tr");
-    for (i = 0; i < tr.length; i++) {
-        td = tr[i].getElementsByTagName("td");
-        for (j = 0; j < td.length; j++) {
-            if (td[j].innerHTML.toUpperCase().indexOf(filter) > -1) {
-                found = true;
+    function filterSearch() {
+        var input, filter, found, table, tr, td, i, j;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("myTable");
+        tr = table.getElementsByTagName("tr");
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td");
+            for (j = 0; j < td.length; j++) {
+                if (td[j].innerHTML.toUpperCase().indexOf(filter) > -1) {
+                    found = true;
+                }
+            }
+            if (found) {
+                tr[i].style.display = "";
+                found = false;
+            } else {
+                tr[i].style.display = "none";
             }
         }
-        if (found) {
-            tr[i].style.display = "";
-            found = false;
-        } else {
-            tr[i].style.display = "none";
-        }
     }
-}
-$(function () {
-	$('#enq_form').validate({
-		rules : {
-        },
-		submitHandler : function (form) {
+    $(function() {
+        $('#enq_form').validate({
+            rules: {},
+            submitHandler: function(form) {
 
-            $('#enq_submit').prop('disabled','true');
-            var base_url = $('#base_url').val();
-            var crm_base_url = $('#crm_base_url').val();
-            var name = $('#name').val();
-            var phone_no = $('#phone_no').val();
-            var email = $('#email').val();
-            var city = $('#city').val();
-            var from_date = $('#from_date').val();
-            var to_date = $('#to_date').val();
-            var service_name = $('#service_name').val();
-            document.getElementById('enq_submit').textContent = 'Loading';
+                $('#enq_submit').prop('disabled', 'true');
+                var base_url = $('#base_url').val();
+                var crm_base_url = $('#crm_base_url').val();
+                var name = $('#name').val();
+                var phone_no = $('#phone_no').val();
+                var email = $('#email').val();
+                var city = $('#city').val();
+                var from_date = $('#from_date').val();
+                var to_date = $('#to_date').val();
+                var service_name = $('#service_name').val();
+                document.getElementById('enq_submit').textContent = 'Loading';
 
-			$.ajax({
-                type  : 'post',
-                url   : crm_base_url + "controller/b2c_settings/b2c/homepage_enq.php",
-                data  : {
-                    name : name,
-                    phone_no : phone_no,
-                    email : email,
-                    city : city,
-                    from_date : from_date,
-                    to_date : to_date,
-                    service_name : service_name
-                },
-                success : function (result) {
-                    var msg = 'Thank you for enquiry with us. Our experts will contact you shortly.';
-                    $.alert({
-                        title: 'Notification!',
-                        content: msg,
-                    });
+                $.ajax({
+                    type: 'post',
+                    url: crm_base_url + "controller/b2c_settings/b2c/homepage_enq.php",
+                    data: {
+                        name: name,
+                        phone_no: phone_no,
+                        email: email,
+                        city: city,
+                        from_date: from_date,
+                        to_date: to_date,
+                        service_name: service_name
+                    },
+                    success: function(result) {
+                        var msg = 'Thank you for enquiry with us. Our experts will contact you shortly.';
+                        $.alert({
+                            title: 'Notification!',
+                            content: msg,
+                        });
 
-                    document.getElementById('enq_submit').textContent = 'Enquire Now';
-                    setTimeout(() => {
-                        window.location.href= base_url;
-                    }, 2000);
-                }
-            });
-        }
+                        document.getElementById('enq_submit').textContent = 'Enquire Now';
+                        setTimeout(() => {
+                            window.location.href = base_url;
+                        }, 2000);
+                    }
+                });
+            }
+        });
     });
-});
 </script>
 <script type="text/javascript" src="js/scripts.js"></script>
