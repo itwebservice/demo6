@@ -261,7 +261,7 @@ if(sizeof($tours_result_array)>0){
                       </div>
 
                       <?php
-                    $tours_result_array[$i]['train_array'] = ($tours_result_array[$i]['train_array']) ? $tours_result_array[$i]['train_array'] : [];
+                      $tours_result_array[$i]['train_array'] = ($tours_result_array[$i]['train_array'] !== NULL) ? $tours_result_array[$i]['train_array'] : [];
                       if(sizeof($tours_result_array[$i]['train_array'])>0){ ?>
                       <div class="col-12 m20-btm">
                         <h3 class="c-heading">
@@ -303,10 +303,9 @@ if(sizeof($tours_result_array)>0){
                         <?php } ?>
                       </div>
                       <?php } ?>
-                    </div>
 
-                    <?php
-                    $tours_result_array[$i]['flight_array'] = ($tours_result_array[$i]['flight_array']) ? $tours_result_array[$i]['flight_array'] : [];
+                      <?php
+                      $tours_result_array[$i]['flight_array'] = ($tours_result_array[$i]['flight_array']) ? $tours_result_array[$i]['flight_array'] : [];
                       if(sizeof($tours_result_array[$i]['flight_array'])>0){ ?>
                       <div class="col-12 m20-btm">
                         <h3 class="c-heading">
@@ -354,9 +353,8 @@ if(sizeof($tours_result_array)>0){
                         <?php } ?>
                       </div>
                       <?php } ?>
-                    </div>
                       <?php
-                    $tours_result_array[$i]['cruise_array'] = ($tours_result_array[$i]['cruise_array']!='') ? $tours_result_array[$i]['cruise_array'] : [];
+                      $tours_result_array[$i]['cruise_array'] = ($tours_result_array[$i]['cruise_array']!='') ? $tours_result_array[$i]['cruise_array'] : [];
                       if(sizeof($tours_result_array[$i]['cruise_array'])>0){ ?>
                       <div class="col-12 m20-btm">
                         <h3 class="c-heading">
@@ -393,6 +391,8 @@ if(sizeof($tours_result_array)>0){
                         <?php } ?>
                       </div>
                       <?php } ?>
+                    </div>
+                  </div>
 
                 <!-- **** Tab Hotel Car End **** -->
             </div>

@@ -1,8 +1,8 @@
  <!-- Footer Start -->
-<footer class="t-footer">
-    <div class="container">
-        <div class="t-footer-content">
-            <!-- <div class="row">
+ <footer class="t-footer">
+     <div class="container">
+         <div class="t-footer-content">
+             <!-- <div class="row">
                 <div class="col col-12 col-md-6 col-lg-3 col-xl-3">
                     <div class="t-footer-card">
                         <div class="t-footer-card-img">
@@ -117,116 +117,146 @@
                     </div>
                 </div>
             </div> -->
-            <div class="t-footer-contact">
-                <div class="row">
-                    <div class="col col-12 col-md-6 col-lg-3 col-xl-3">
-                        <div class="t-footer-contact-list">
-                            <h5 class="t-footer-contact-title">Holiday Tour & Travels</h5>
-                            <p class="t-footer-contact-discription">World's leading tour and travels Booking website,Over 30,000 packages worldwide.</p>
-                        </div>
-                    </div>
-                    <div class="col col-12 col-md-6 col-lg-3 col-xl-3">
-                        <div class="t-footer-contact-list">
-                            <h5 class="t-footer-contact-title">Address & Contact Info</h5>
-                            <p class="t-footer-contact-discription mb-2">28800 Orchard Lake Road, Suite 180 Farmington Hills, U.S.A. Landmark : Next To Airport</p>
-                            <h5 class="t-footer-contact-title mb-0">Phone: +101-1231-1231</h5>
-                        </div>
-                    </div>
-                    <div class="col col-12 col-md-6 col-lg-3 col-xl-3">
-                        <div class="t-footer-contact-list">
-                            <h5 class="t-footer-contact-title">Support & HELP</h5>
-                            <div class="t-footer-help">
-                                <ul class="t-footr-help-list">
-                                    <li class="t-footer-help-item">
-                                        <a href="#" class="t-footer-help-link t-footer-contact-discription">About Us</a>
-                                    </li>
-                                    <li class="t-footer-help-item">
-                                        <a href="#" class="t-footer-help-link t-footer-contact-discription">Feedbacks</a>
-                                    </li>
-                                    <li class="t-footer-help-item">
-                                        <a href="#" class="t-footer-help-link t-footer-contact-discription">Use Cases</a>
-                                    </li>
-                                    <li class="t-footer-help-item">
-                                        <a href="#" class="t-footer-help-link t-footer-contact-discription">Discount</a>
-                                    </li>
-                                    <li class="t-footer-help-item">
-                                        <a href="#" class="t-footer-help-link t-footer-contact-discription">Branding Offers </a>
-                                    </li>
-                                </ul>
-                                <ul class="t-footr-help-list">
-                                    <li class="t-footer-help-item mr-0">
-                                        <a href="#" class="t-footer-help-link t-footer-contact-discription">FAQ</a>
-                                    </li>
-                                    <li class="t-footer-help-item mr-0">
-                                        <a href="#" class="t-footer-help-link t-footer-contact-discription">Blog </a>
-                                    </li>
-                                    <li class="t-footer-help-item mr-0">
-                                        <a href="#" class="t-footer-help-link t-footer-contact-discription">Advertise us</a>
-                                    </li>
-                                    <li class="t-footer-help-item mr-0">
-                                        <a href="#" class="t-footer-help-link t-footer-contact-discription">Vacations</a>
-                                    </li>
-                                    <li class="t-footer-help-item mr-0">
-                                        <a href="#" class="t-footer-help-link t-footer-contact-discription">Contact Us</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col col-12 col-md-6 col-lg-3 col-xl-3">
-                        <div class="t-footer-contact-list">
-                            <h5 class="t-footer-contact-title">Follow with us</h5>
-                            <p class="t-footer-contact-discription mb-2">Join the thousands of other There are many variations of passages of Lorem Ipsum available</p>
-                            <ul class="t-footer-social-list">
-                                <li class="t-footer-social-item">
-                                    <a href="#" class="t-footer-social-link">
-                                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                                <li class="t-footer-social-item">
-                                    <a href="#" class="t-footer-social-link">
-                                        <i class="fa fa-google-plus" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                                <li class="t-footer-social-item">
-                                    <a href="#" class="t-footer-social-link">
-                                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                                <li class="t-footer-social-item">
-                                    <a href="#" class="t-footer-social-link">
-                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                                <li class="t-footer-social-item">
-                                    <a href="#" class="t-footer-social-link">
-                                        <i class="fa fa-youtube" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-<div class="copiright-content">
-    <p class="copiright-discription">Copyrights © 2017 Company Name. All Rights Reserved</p>
-</div>
-<!-- Footer End -->
+             <div class="t-footer-contact">
+                 <div class="row">
+                     <div class="col col-12 col-md-6 col-lg-3 col-xl-3">
+                         <div class="t-footer-contact-list">
+                             <h5 class="t-footer-contact-title">Address & Contact Info</h5>
+                             <p class="t-footer-contact-discription mb-2"><?= $Apigeneral->app_address ?></p>
+                             <h5 class="t-footer-contact-title mb-0">Phone: <?= $Apigeneral->app_contact_no ?></h5>
+                         </div>
+                     </div>
+                    <?php
+                    if(sizeof($Apifooter) > 0){
+                    ?>
+                     <div class="col col-12 col-md-6 col-lg-3 col-xl-3">
+                         <div class="t-footer-contact-list">
+                             <h5 class="t-footer-contact-title">Holiday Tour & Travels</h5>
+                             <ul class="t-footr-help-list">
+                                 <?php foreach ($Apifooter as $footer) { ?>
+                                     <li class="t-footer-help-item">
+                                         <a target="_blank" onclick="get_tours_data('<?= $footer->dest_id ?>','1')" class="t-footer-help-link t-footer-contact-discription" style="cursor:pointer!important;"><?= $footer->package_name ?></a>
+                                     </li>
+                                 <?php } ?>
+                             </ul>
+                         </div>
+                     </div>
+                     <?php } ?>
 
-</div>
+                     <div class="col col-12 col-md-6 col-lg-3 col-xl-3">
+                         <div class="t-footer-contact-list">
+                             <h5 class="t-footer-contact-title">Important Links</h5>
+                             <div class="t-footer-help">
+                                 <ul class="t-footr-help-list">
+                                     <li class="t-footer-help-item">
+                                         <a target="_blank" href="<?= BASE_URL_B2C ?>about.php" class="t-footer-help-link t-footer-contact-discription">About Us</a>
+                                     </li>
+                                     <li class="t-footer-help-item">
+                                         <a target="_blank" href="<?= BASE_URL_B2C ?>award.php" class="t-footer-help-link t-footer-contact-discription">Awards</a>
+                                     </li>
+                                     <li class="t-footer-help-item">
+                                         <a target="_blank" href="<?= BASE_URL_B2C ?>blog.php" class="t-footer-help-link t-footer-contact-discription">Travel Blog</a>
+                                     </li>
+                                     <li class="t-footer-help-item">
+                                         <a target="_blank" href="<?= BASE_URL_B2C ?>refund-policy.php" class="t-footer-help-link t-footer-contact-discription">Refund Policy</a>
+                                     </li>
+                                     <li class="t-footer-help-item">
+                                         <a target="_blank" href="<?= BASE_URL_B2C ?>terms-conditions.php" class="t-footer-help-link t-footer-contact-discription">Terms of Use</a>
+                                     </li>
+                                 </ul>
+                                 <ul class="t-footr-help-list">
+                                     <li class="t-footer-help-item mr-0">
+                                         <a target="_blank" href="<?= BASE_URL_B2C ?>careers.php" class="t-footer-help-link t-footer-contact-discription">Career</a>
+                                     </li>
+                                     <li class="t-footer-help-item mr-0">
+                                         <a target="_blank" href="<?= BASE_URL_B2C ?>gallery.php" class="t-footer-help-link t-footer-contact-discription">Gallery</a>
+                                     </li>
+                                     <li class="t-footer-help-item mr-0">
+                                         <a target="_blank" href="<?= BASE_URL_B2C ?>testimonials.php" class="t-footer-help-link t-footer-contact-discription">Testimonials</a>
+                                     </li>
+                                     <li class="t-footer-help-item mr-0">
+                                         <a target="_blank" href="<?= BASE_URL_B2C ?>privacy-policy.php" class="t-footer-help-link t-footer-contact-discription">Privacy Policy</a>
+                                     </li>
+                                     <li class="t-footer-help-item mr-0">
+                                         <a target="_blank" href="<?= BASE_URL_B2C ?>cancellation-policy.php" class="t-footer-help-link t-footer-contact-discription">Cancellation
+                                             Policy</a>
+                                     </li>
+                                 </ul>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col col-12 col-md-6 col-lg-3 col-xl-3">
+                         <div class="t-footer-contact-list">
+                             <h5 class="t-footer-contact-title">Follow with us</h5>
+                             <p class="t-footer-contact-discription mb-2">Join our social media's and get more update of latest tours, sightseeing & attractions.</p>
+                             <ul class="t-footer-social-list">
+                                 <?php if($Apisocial->fb != ''){ ?>
+                                 <li class="t-footer-social-item">
+                                     <a href="<?= $Apisocial->fb ?>" class="t-footer-social-link" target="_blank">
+                                         <i class="fa fa-facebook" aria-hidden="true"></i>
+                                     </a>
+                                 </li>
+                                 <?php } ?>
+                                 <?php if($Apisocial->li != ''){ ?>
+                                 <li class="t-footer-social-item">
+                                     <a href="<?= $Apisocial->li ?>" class="t-footer-social-link" target="_blank">
+                                         <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                     </a>
+                                 </li>
+                                 <?php } ?>
+                                 <?php if($Apisocial->tw != ''){ ?>
+                                 <li class="t-footer-social-item">
+                                     <a href="<?= $Apisocial->tw ?>" class="t-footer-social-link" target="_blank">
+                                         <i class="fa fa-twitter" aria-hidden="true"></i>
+                                     </a>
+                                 </li>
+                                 <?php } ?>
+                                 <?php if($Apisocial->wa != ''){ ?>
+                                 <li class="t-footer-social-item">
+                                     <a href="<?= $Apisocial->wa ?>" class="t-footer-social-link" target="_blank">
+                                         <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                                     </a>
+                                 </li>
+                                 <?php } ?>
+                                 <?php if($Apisocial->inst != ''){ ?>
+                                 <li class="t-footer-social-item">
+                                     <a href="<?= $Apisocial->inst ?>" class="t-footer-social-link" target="_blank">
+                                         <i class="fa fa-instagram" aria-hidden="true"></i>
+                                     </a>
+                                 </li>
+                                 <?php } ?>
+                                 <?php if($Apisocial->yu != ''){ ?>
+                                 <li class="t-footer-social-item">
+                                     <a href="<?= $Apisocial->yu ?>" class="t-footer-social-link" target="_blank">
+                                         <i class="fa fa-youtube" aria-hidden="true"></i>
+                                     </a>
+                                 </li>
+                                 <?php } ?>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </footer>
+ <div class="copiright-content">
+     <p class="copiright-discription">Copyrights © 2022 <a href="" style="text-decoration: none; color: inherit;">
+             <?= $Apigeneral->app_name ?></a> .All Rights Reserved</p>
+ </div>
+ <!-- Footer End -->
 
-<div id="site_alert"></div>
+ </div>
 
-<div id='hotel-result'></div>
+ <div id="site_alert"></div>
 
-<!-- <div id='WhatsAppPanel'></div> -->
+ <div id='hotel-result'></div>
+
+ <!-- <div id='WhatsAppPanel'></div> -->
 
 
 
-<!-- <div class="modal fade shoppingCartModal" id="shopping_list_modal" role="dialog" aria-labelledby="myModalLabel">
+ <!-- <div class="modal fade shoppingCartModal" id="shopping_list_modal" role="dialog" aria-labelledby="myModalLabel">
 
 <div class="modal-dialog modal-sm" role="document">
 
@@ -252,1344 +282,1365 @@
 
 </div> -->
 
-<!-- Javascript -->
+ <!-- Javascript -->
 
-<script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/jquery-3.4.1.min.js"></script>
+ <script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/jquery-3.4.1.min.js"></script>
 
-<script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/jquery-ui.1.10.4.min.js"></script>
+ <script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/jquery-ui.1.10.4.min.js"></script>
 
-<script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/popper.min.js"></script>
+ <script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/popper.min.js"></script>
 
-<script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/bootstrap-4.min.js"></script>
+ <script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/bootstrap-4.min.js"></script>
 
-<script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/owl.carousel.min.js"></script>
+ <script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/owl.carousel.min.js"></script>
 
-<script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/select2.min.js"></script>
+ <script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/select2.min.js"></script>
 
-<script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/theme-scripts.js"></script>
+ <script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/theme-scripts.js"></script>
 
-<script type="text/javascript" src="<?php echo BASE_URL ?>js/vi.alert.js"></script>
+ <script type="text/javascript" src="<?php echo BASE_URL ?>js/vi.alert.js"></script>
 
-<script type="text/javascript" src="<?php echo BASE_URL ?>js/jquery.validate.min.js"></script>
+ <script type="text/javascript" src="<?php echo BASE_URL ?>js/jquery.validate.min.js"></script>
 
-<script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/jquery-confirm.js"></script>
+ <script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/jquery-confirm.js"></script>
 
-<script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/pagination.min.js"></script>
+ <script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/pagination.min.js"></script>
 
-<script type="text/javascript" src="<?php echo BASE_URL ?>js/jquery.datetimepicker.full.js"></script>
+ <script type="text/javascript" src="<?php echo BASE_URL ?>js/jquery.datetimepicker.full.js"></script>
 
-<script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/lightgallery.min.js"></script>
+ <script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/lightgallery.min.js"></script>
 
-<script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/lg-thumbnail.min.js"></script>
+ <script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/lg-thumbnail.min.js"></script>
 
-<script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/lg-zoom.min.js"></script>
+ <script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/lg-zoom.min.js"></script>
 
-<script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/scripts.js"></script>
+ <script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/scripts.js"></script>
 
-<script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/custom.js"></script>
+ <script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/custom.js"></script>
 
 
 
-</body>
+ </body>
 
-</html>
+ </html>
 
-<script>
+ <script>
+     $(document).ready(function() {
 
-$(document).ready(function () {
 
-    
 
-    var base_url = $('#base_url').val();
+         var base_url = $('#base_url').val();
 
-    if (typeof Storage !== 'undefined') {
+         if (typeof Storage !== 'undefined') {
 
-        
 
-        var currency_id = $('#global_currency').val();
 
-        if (localStorage) {
+             var currency_id = $('#global_currency').val();
 
-          var global_currency = localStorage.getItem('global_currency');
+             if (localStorage) {
 
-          
+                 var global_currency = localStorage.getItem('global_currency');
 
-        } else {
 
-          var global_currency = window.sessionStorage.getItem('global_currency');
 
-        }
+             } else {
 
-    }
+                 var global_currency = window.sessionStorage.getItem('global_currency');
 
-    //Get selected Currency Dropdown
+             }
 
-    $.post(base_url+'view/get_currency_dropdown.php', { currency_id : global_currency }, function (data){
+         }
 
-          $('#currency_dropdown').html(data);
+         //Get selected Currency Dropdown
 
-          $('#currency').select2();
+         $.post(base_url + 'view/get_currency_dropdown.php', {
+             currency_id: global_currency
+         }, function(data) {
 
-          
+             $('#currency_dropdown').html(data);
 
-          var currency_id1 = $('#currency').val();
+             $('#currency').select2();
 
-          //Set selected currency in php session also
 
-          $.post(base_url + 'view/set_currency_session.php', { currency_id: currency_id1}, function (data) {
 
-          });
+             var currency_id1 = $('#currency').val();
 
-          if (typeof Storage !== 'undefined') {
+             //Set selected currency in php session also
 
-              if (localStorage) {
+             $.post(base_url + 'view/set_currency_session.php', {
+                 currency_id: currency_id1
+             }, function(data) {
 
-                  localStorage.setItem(
+             });
 
-                  'global_currency', currency_id1
+             if (typeof Storage !== 'undefined') {
 
-                  );
+                 if (localStorage) {
 
-              } else {
+                     localStorage.setItem(
 
-                  window.sessionStorage.setItem(
+                         'global_currency', currency_id1
 
-                  'global_currency', currency_id1
+                     );
 
-                  );
+                 } else {
 
-              }
+                     window.sessionStorage.setItem(
 
-          }
+                         'global_currency', currency_id1
 
-          // get_selected_currency();
+                     );
 
-    });
+                 }
 
-});
+             }
 
+             // get_selected_currency();
 
+         });
 
-// $('#WhatsAppPanel').load('../whatsContent.html');
+     });
 
 
 
-function tours_page_currencies(current_page_url){
+     // $('#WhatsAppPanel').load('../whatsContent.html');
 
-    
 
-    var base_url = $('#base_url').val();
 
-    var default_currency = $('#global_currency').val();    
+     function tours_page_currencies(current_page_url) {
 
-    if (typeof Storage !== 'undefined') {
 
-        if (localStorage) {
 
-            var currency_id = localStorage.getItem('global_currency');
+         var base_url = $('#base_url').val();
 
-        } else {
+         var default_currency = $('#global_currency').val();
 
-            var currency_id = window.sessionStorage.getItem('global_currency');
+         if (typeof Storage !== 'undefined') {
 
-        }
+             if (localStorage) {
 
-    }
+                 var currency_id = localStorage.getItem('global_currency');
 
-    // Listing page //Load Currency Icon
+             } else {
 
-    var currency_icon_lisr = document.querySelectorAll(".currency-icon");
+                 var currency_id = window.sessionStorage.getItem('global_currency');
 
-    var cache_currencies = JSON.parse($('#cache_currencies').val());
+             }
 
-    var to_currency_rate = (cache_currencies.find(el => el.id === currency_id) !== undefined )? cache_currencies.find(el => el.id === currency_id) : '0';
+         }
 
-    currency_icon_lisr.forEach(function(item){
+         // Listing page //Load Currency Icon
 
-        item.innerHTML = to_currency_rate.icon;
+         var currency_icon_lisr = document.querySelectorAll(".currency-icon");
 
-    });
+         var cache_currencies = JSON.parse($('#cache_currencies').val());
 
-    if(current_page_url != base_url + 'view/tours/tours-listing.php'){
+         var to_currency_rate = (cache_currencies.find(el => el.id === currency_id) !== undefined) ? cache_currencies.find(
+             el => el.id === currency_id) : '0';
 
-        
+         currency_icon_lisr.forEach(function(item) {
 
-        // Indivisual Package Php page
+             item.innerHTML = to_currency_rate.icon;
 
-        var price_list = JSON.parse(sessionStorage.getItem('tours_best_amount_list'));
+         });
 
-        var amount_Classlist = document.querySelectorAll(".best-currency-price");
+         if (current_page_url != base_url + 'view/tours/tours-listing.php') {
 
-        if(price_list !== null && amount_Classlist[0] !== undefined){
 
-            price_list.map((tour,i)=>{
 
-                
+             // Indivisual Package Php page
 
-                var currency_rates = get_currency_rates(tour.id,currency_id).split('-');
+             var price_list = JSON.parse(sessionStorage.getItem('tours_best_amount_list'));
 
-                var to_currency_rate =  currency_rates[0];
+             var amount_Classlist = document.querySelectorAll(".best-currency-price");
 
-                var from_currency_rate = currency_rates[1];
+             if (price_list !== null && amount_Classlist[0] !== undefined) {
 
-                var cost = parseFloat(to_currency_rate / from_currency_rate * tour.amount).toFixed(2);
+                 price_list.map((tour, i) => {
 
-                if(parseFloat(cost) != '0.00'){
 
-                    amount_Classlist[i].innerHTML = cost;
 
-                }else{
+                     var currency_rates = get_currency_rates(tour.id, currency_id).split('-');
 
-                    amount_Classlist[i].innerHTML = 'On Request';
+                     var to_currency_rate = currency_rates[0];
 
-                }
+                     var from_currency_rate = currency_rates[1];
 
-            });
+                     var cost = parseFloat(to_currency_rate / from_currency_rate * tour.amount).toFixed(2);
 
-        }
+                     if (parseFloat(cost) != '0.00') {
 
-    }
+                         amount_Classlist[i].innerHTML = cost;
 
-    else{
+                     } else {
 
-    
+                         amount_Classlist[i].innerHTML = 'On Request';
 
-        //Tour Prices
+                     }
 
-        var price_list = JSON.parse(sessionStorage.getItem('tours_amount_list'));
+                 });
 
-        var amount_Classlist = document.querySelectorAll(".tours-currency-price");
+             }
 
-        if(price_list !== null && amount_Classlist[0] !== undefined){
+         } else {
 
-            price_list.map((tour,i)=>{
 
-            var currency_rates = get_currency_rates(tour.id,currency_id).split('-');
 
-            var to_currency_rate =  currency_rates[0];
+             //Tour Prices
 
-            var from_currency_rate = currency_rates[1];
+             var price_list = JSON.parse(sessionStorage.getItem('tours_amount_list'));
 
-            amount_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount).toFixed(2);
+             var amount_Classlist = document.querySelectorAll(".tours-currency-price");
 
-            });
+             if (price_list !== null && amount_Classlist[0] !== undefined) {
 
-        }
+                 price_list.map((tour, i) => {
 
-        //Tour Org Prices
+                     var currency_rates = get_currency_rates(tour.id, currency_id).split('-');
 
-        var price_list = JSON.parse(sessionStorage.getItem('tours_orgamount_list'));
+                     var to_currency_rate = currency_rates[0];
 
-        var amount_Classlist = document.querySelectorAll(".tours-orgcurrency-price");
+                     var from_currency_rate = currency_rates[1];
 
-        if(price_list !== null && amount_Classlist[0] !== undefined){
+                     amount_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount)
+                         .toFixed(2);
 
-            price_list.map((tour,i)=>{
+                 });
 
-            var currency_rates = get_currency_rates(tour.id,currency_id).split('-');
+             }
 
-            var to_currency_rate =  currency_rates[0];
+             //Tour Org Prices
 
-            var from_currency_rate = currency_rates[1];
+             var price_list = JSON.parse(sessionStorage.getItem('tours_orgamount_list'));
 
-            amount_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount).toFixed(2);
+             var amount_Classlist = document.querySelectorAll(".tours-orgcurrency-price");
 
-            });
+             if (price_list !== null && amount_Classlist[0] !== undefined) {
 
-        }
+                 price_list.map((tour, i) => {
 
-        //Tour best Prices
+                     var currency_rates = get_currency_rates(tour.id, currency_id).split('-');
 
-        var price_list = JSON.parse(sessionStorage.getItem('tours_best_amount_list'));
+                     var to_currency_rate = currency_rates[0];
 
-        var amount_Classlist = document.querySelectorAll(".best-currency-price");
+                     var from_currency_rate = currency_rates[1];
 
-        if(price_list !== null && amount_Classlist[0] !== undefined){
+                     amount_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount)
+                         .toFixed(2);
 
-            price_list.map((tour,i)=>{
+                 });
 
-            var currency_rates = get_currency_rates(tour.id,currency_id).split('-');
+             }
 
-            var to_currency_rate =  currency_rates[0];
+             //Tour best Prices
 
-            var from_currency_rate = currency_rates[1];
+             var price_list = JSON.parse(sessionStorage.getItem('tours_best_amount_list'));
 
-            amount_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount).toFixed(2);
+             var amount_Classlist = document.querySelectorAll(".best-currency-price");
 
-            });
+             if (price_list !== null && amount_Classlist[0] !== undefined) {
 
-        }
+                 price_list.map((tour, i) => {
 
-        //Tour best Org Prices
+                     var currency_rates = get_currency_rates(tour.id, currency_id).split('-');
 
-        var price_list = JSON.parse(sessionStorage.getItem('tours_best_orgamount_list'));
+                     var to_currency_rate = currency_rates[0];
 
-        var amount_Classlist = document.querySelectorAll(".best-tours-orgamount");
+                     var from_currency_rate = currency_rates[1];
 
-        if(price_list !== null && amount_Classlist[0] !== undefined){
+                     amount_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount)
+                         .toFixed(2);
 
-            price_list.map((tour,i)=>{
+                 });
 
-            var currency_rates = get_currency_rates(tour.id,currency_id).split('-');
+             }
 
-            var to_currency_rate =  currency_rates[0];
+             //Tour best Org Prices
 
-            var from_currency_rate = currency_rates[1];
+             var price_list = JSON.parse(sessionStorage.getItem('tours_best_orgamount_list'));
 
-            amount_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount).toFixed(2);
+             var amount_Classlist = document.querySelectorAll(".best-tours-orgamount");
 
-            });
+             if (price_list !== null && amount_Classlist[0] !== undefined) {
 
-        }
+                 price_list.map((tour, i) => {
 
-        //Best High-Low cost array(Price Range filter)
+                     var currency_rates = get_currency_rates(tour.id, currency_id).split('-');
 
-        var best_price_list = JSON.parse(sessionStorage.getItem('tours_best_price'));
+                     var to_currency_rate = currency_rates[0];
 
-        if(best_price_list !== null){
+                     var from_currency_rate = currency_rates[1];
 
-            var ans_arr3 = [];
+                     amount_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount)
+                         .toFixed(2);
 
-            best_price_list.map((tour,i)=>{
+                 });
 
-            if(i===0)
+             }
 
-                tour.amount = Math.floor(tour.amount);
+             //Best High-Low cost array(Price Range filter)
 
-            else
+             var best_price_list = JSON.parse(sessionStorage.getItem('tours_best_price'));
 
-                tour.amount = Math.ceil(tour.amount);
+             if (best_price_list !== null) {
 
-                if(tour.id!=currency_id){
+                 var ans_arr3 = [];
 
-                    var currency_rates = get_currency_rates(tour.id,currency_id).split('-');
+                 best_price_list.map((tour, i) => {
 
-                    var to_currency_rate =  currency_rates[0];
+                     if (i === 0)
 
-                    var from_currency_rate = currency_rates[1];
+                         tour.amount = Math.floor(tour.amount);
 
-                    var final_amount = (parseFloat(to_currency_rate / from_currency_rate * tour.amount));
+                     else
 
-                    
+                         tour.amount = Math.ceil(tour.amount);
 
-                    ans_arr3.push(final_amount);
+                     if (tour.id != currency_id) {
 
-                }
+                         var currency_rates = get_currency_rates(tour.id, currency_id).split('-');
 
-                else{
+                         var to_currency_rate = currency_rates[0];
 
-                    ans_arr3.push(parseFloat(tour.amount).toFixed(2));
+                         var from_currency_rate = currency_rates[1];
 
-                }
+                         var final_amount = (parseFloat(to_currency_rate / from_currency_rate * tour.amount));
 
-                $('#price_rangevalues').val((ans_arr3));
 
-            });
 
-            const element = document.querySelector(".c-priceRange");
+                         ans_arr3.push(final_amount);
 
-            if(element!==null){
+                     } else {
 
-                clearRange();
+                         ans_arr3.push(parseFloat(tour.amount).toFixed(2));
 
-            }
+                     }
 
-        }
+                     $('#price_rangevalues').val((ans_arr3));
 
-        
+                 });
 
-    }
+                 const element = document.querySelector(".c-priceRange");
 
-}
+                 if (element !== null) {
 
-function group_tours_page_currencies(current_page_url){
+                     clearRange();
 
-    
+                 }
 
-    var base_url = $('#base_url').val();
+             }
 
-    var default_currency = $('#global_currency').val();    
 
-    if (typeof Storage !== 'undefined') {
 
-        if (localStorage) {
+         }
 
-            var currency_id = localStorage.getItem('global_currency');
+     }
 
-        } else {
+     function group_tours_page_currencies(current_page_url) {
 
-            var currency_id = window.sessionStorage.getItem('global_currency');
 
-        }
 
-    }
+         var base_url = $('#base_url').val();
 
-    // Listing page //Load Currency Icon
+         var default_currency = $('#global_currency').val();
 
-    var currency_icon_lisr = document.querySelectorAll(".currency-icon");
+         if (typeof Storage !== 'undefined') {
 
-    var cache_currencies = JSON.parse($('#cache_currencies').val());
+             if (localStorage) {
 
-    var to_currency_rate = (cache_currencies.find(el => el.id === currency_id) !== undefined )? cache_currencies.find(el => el.id === currency_id) : '0';
+                 var currency_id = localStorage.getItem('global_currency');
 
-    currency_icon_lisr.forEach(function(item){
+             } else {
 
-        item.innerHTML = to_currency_rate.icon;
+                 var currency_id = window.sessionStorage.getItem('global_currency');
 
-    });
+             }
 
-    if(current_page_url != base_url + 'view/group_tours/tours-listing.php'){
+         }
 
-        
+         // Listing page //Load Currency Icon
 
-        // Indivisual Package Php page
+         var currency_icon_lisr = document.querySelectorAll(".currency-icon");
 
-        var price_list = JSON.parse(sessionStorage.getItem('tours_best_amount_list'));
+         var cache_currencies = JSON.parse($('#cache_currencies').val());
 
-        var amount_Classlist = document.querySelectorAll(".best-currency-price");
+         var to_currency_rate = (cache_currencies.find(el => el.id === currency_id) !== undefined) ? cache_currencies.find(
+             el => el.id === currency_id) : '0';
 
-        if(price_list !== null && amount_Classlist[0] !== undefined){
+         currency_icon_lisr.forEach(function(item) {
 
-            price_list.map((tour,i)=>{
+             item.innerHTML = to_currency_rate.icon;
 
-                
+         });
 
-                var currency_rates = get_currency_rates(tour.id,currency_id).split('-');
+         if (current_page_url != base_url + 'view/group_tours/tours-listing.php') {
 
-                var to_currency_rate =  currency_rates[0];
 
-                var from_currency_rate = currency_rates[1];
 
-                var cost = parseFloat(to_currency_rate / from_currency_rate * tour.amount).toFixed(2);
+             // Indivisual Package Php page
 
-                if(parseFloat(cost) != '0.00'){
+             var price_list = JSON.parse(sessionStorage.getItem('tours_best_amount_list'));
 
-                    amount_Classlist[i].innerHTML = cost;
+             var amount_Classlist = document.querySelectorAll(".best-currency-price");
 
-                }else{
+             if (price_list !== null && amount_Classlist[0] !== undefined) {
 
-                    amount_Classlist[i].innerHTML = 'On Request';
+                 price_list.map((tour, i) => {
 
-                }
 
-            });
 
-        }
+                     var currency_rates = get_currency_rates(tour.id, currency_id).split('-');
 
-    }
+                     var to_currency_rate = currency_rates[0];
 
-    else{
+                     var from_currency_rate = currency_rates[1];
 
-    
+                     var cost = parseFloat(to_currency_rate / from_currency_rate * tour.amount).toFixed(2);
 
-        //Tour Prices
+                     if (parseFloat(cost) != '0.00') {
 
-        var price_list = JSON.parse(sessionStorage.getItem('tours_amount_list'));
+                         amount_Classlist[i].innerHTML = cost;
 
-        var amount_Classlist = document.querySelectorAll(".tours-currency-price");
+                     } else {
 
-        if(price_list !== null && amount_Classlist[0] !== undefined){
+                         amount_Classlist[i].innerHTML = 'On Request';
 
-            price_list.map((tour,i)=>{
+                     }
 
-            var currency_rates = get_currency_rates(tour.id,currency_id).split('-');
+                 });
 
-            var to_currency_rate =  currency_rates[0];
+             }
 
-            var from_currency_rate = currency_rates[1];
+         } else {
 
-            amount_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount).toFixed(2);
 
-            });
 
-        }
+             //Tour Prices
 
-        //adult Prices
+             var price_list = JSON.parse(sessionStorage.getItem('tours_amount_list'));
 
-        var price_list = JSON.parse(sessionStorage.getItem('adult_price_list'));
+             var amount_Classlist = document.querySelectorAll(".tours-currency-price");
 
-        var amount_Classlist = document.querySelectorAll(".adult_cost-currency-price");
+             if (price_list !== null && amount_Classlist[0] !== undefined) {
 
-        if(price_list !== null && amount_Classlist[0] !== undefined){
+                 price_list.map((tour, i) => {
 
-            price_list.map((tour,i)=>{
+                     var currency_rates = get_currency_rates(tour.id, currency_id).split('-');
 
-            var currency_rates = get_currency_rates(tour.id,currency_id).split('-');
+                     var to_currency_rate = currency_rates[0];
 
-            var to_currency_rate =  currency_rates[0];
+                     var from_currency_rate = currency_rates[1];
 
-            var from_currency_rate = currency_rates[1];
+                     amount_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount)
+                         .toFixed(2);
 
-            amount_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount).toFixed(2);
+                 });
 
-            });
+             }
 
-        }
+             //adult Prices
 
-        //child without best Prices
+             var price_list = JSON.parse(sessionStorage.getItem('adult_price_list'));
 
-        var price_list = JSON.parse(sessionStorage.getItem('childwo_price_list'));
+             var amount_Classlist = document.querySelectorAll(".adult_cost-currency-price");
 
-        var amount_Classlist = document.querySelectorAll(".childwio_cost-currency-price");
+             if (price_list !== null && amount_Classlist[0] !== undefined) {
 
-        if(price_list !== null && amount_Classlist[0] !== undefined){
+                 price_list.map((tour, i) => {
 
-            price_list.map((tour,i)=>{
+                     var currency_rates = get_currency_rates(tour.id, currency_id).split('-');
 
-            var currency_rates = get_currency_rates(tour.id,currency_id).split('-');
+                     var to_currency_rate = currency_rates[0];
 
-            var to_currency_rate =  currency_rates[0];
+                     var from_currency_rate = currency_rates[1];
 
-            var from_currency_rate = currency_rates[1];
+                     amount_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount)
+                         .toFixed(2);
 
-            amount_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount).toFixed(2);
+                 });
 
-            });
+             }
 
-        }
+             //child without best Prices
 
-        //child with Prices
+             var price_list = JSON.parse(sessionStorage.getItem('childwo_price_list'));
 
-        var price_list = JSON.parse(sessionStorage.getItem('childwi_price_list'));
+             var amount_Classlist = document.querySelectorAll(".childwio_cost-currency-price");
 
-        var amount_Classlist = document.querySelectorAll(".childwi_cost-currency-price");
+             if (price_list !== null && amount_Classlist[0] !== undefined) {
 
-        if(price_list !== null && amount_Classlist[0] !== undefined){
+                 price_list.map((tour, i) => {
 
-            price_list.map((tour,i)=>{
+                     var currency_rates = get_currency_rates(tour.id, currency_id).split('-');
 
-            var currency_rates = get_currency_rates(tour.id,currency_id).split('-');
+                     var to_currency_rate = currency_rates[0];
 
-            var to_currency_rate =  currency_rates[0];
+                     var from_currency_rate = currency_rates[1];
 
-            var from_currency_rate = currency_rates[1];
+                     amount_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount)
+                         .toFixed(2);
 
-            amount_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount).toFixed(2);
+                 });
 
-            });
+             }
 
-        }
+             //child with Prices
 
-        //extra bed Org Prices
+             var price_list = JSON.parse(sessionStorage.getItem('childwi_price_list'));
 
-        var price_list = JSON.parse(sessionStorage.getItem('extrabed_price_list'));
+             var amount_Classlist = document.querySelectorAll(".childwi_cost-currency-price");
 
-        var amount_Classlist = document.querySelectorAll(".extrabed-currency-price");
+             if (price_list !== null && amount_Classlist[0] !== undefined) {
 
-        if(price_list !== null && amount_Classlist[0] !== undefined){
+                 price_list.map((tour, i) => {
 
-            price_list.map((tour,i)=>{
+                     var currency_rates = get_currency_rates(tour.id, currency_id).split('-');
 
-            var currency_rates = get_currency_rates(tour.id,currency_id).split('-');
+                     var to_currency_rate = currency_rates[0];
 
-            var to_currency_rate =  currency_rates[0];
+                     var from_currency_rate = currency_rates[1];
 
-            var from_currency_rate = currency_rates[1];
+                     amount_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount)
+                         .toFixed(2);
 
-            amount_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount).toFixed(2);
+                 });
 
-            });
+             }
 
-        }
+             //extra bed Org Prices
 
-        //infant Org Prices
+             var price_list = JSON.parse(sessionStorage.getItem('extrabed_price_list'));
 
-        var price_list = JSON.parse(sessionStorage.getItem('infant_price_list'));
+             var amount_Classlist = document.querySelectorAll(".extrabed-currency-price");
 
-        var amount_Classlist = document.querySelectorAll(".infant_cost-currency-price");
+             if (price_list !== null && amount_Classlist[0] !== undefined) {
 
-        if(price_list !== null && amount_Classlist[0] !== undefined){
+                 price_list.map((tour, i) => {
 
-            price_list.map((tour,i)=>{
+                     var currency_rates = get_currency_rates(tour.id, currency_id).split('-');
 
-            var currency_rates = get_currency_rates(tour.id,currency_id).split('-');
+                     var to_currency_rate = currency_rates[0];
 
-            var to_currency_rate =  currency_rates[0];
+                     var from_currency_rate = currency_rates[1];
 
-            var from_currency_rate = currency_rates[1];
+                     amount_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount)
+                         .toFixed(2);
 
-            amount_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount).toFixed(2);
+                 });
 
-            });
+             }
 
-        }
+             //infant Org Prices
 
-        //Best High-Low cost array(Price Range filter)
+             var price_list = JSON.parse(sessionStorage.getItem('infant_price_list'));
 
-        var best_price_list = JSON.parse(sessionStorage.getItem('tours_best_price'));
+             var amount_Classlist = document.querySelectorAll(".infant_cost-currency-price");
 
-        if(best_price_list !== null){
+             if (price_list !== null && amount_Classlist[0] !== undefined) {
 
-            var ans_arr3 = [];
+                 price_list.map((tour, i) => {
 
-            best_price_list.map((tour,i)=>{
+                     var currency_rates = get_currency_rates(tour.id, currency_id).split('-');
 
-            if(i===0)
+                     var to_currency_rate = currency_rates[0];
 
-                tour.amount = Math.floor(tour.amount);
+                     var from_currency_rate = currency_rates[1];
 
-            else
+                     amount_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount)
+                         .toFixed(2);
 
-                tour.amount = Math.ceil(tour.amount);
+                 });
 
-                if(tour.id!=currency_id){
+             }
 
-                    var currency_rates = get_currency_rates(tour.id,currency_id).split('-');
+             //Best High-Low cost array(Price Range filter)
 
-                    var to_currency_rate =  currency_rates[0];
+             var best_price_list = JSON.parse(sessionStorage.getItem('tours_best_price'));
 
-                    var from_currency_rate = currency_rates[1];
+             if (best_price_list !== null) {
 
-                    var final_amount = (parseFloat(to_currency_rate / from_currency_rate * tour.amount));
+                 var ans_arr3 = [];
 
-                    
+                 best_price_list.map((tour, i) => {
 
-                    ans_arr3.push(final_amount);
+                     if (i === 0)
 
-                }
+                         tour.amount = Math.floor(tour.amount);
 
-                else{
+                     else
 
-                    ans_arr3.push(parseFloat(tour.amount).toFixed(2));
+                         tour.amount = Math.ceil(tour.amount);
 
-                }
+                     if (tour.id != currency_id) {
 
-                $('#price_rangevalues').val((ans_arr3));
+                         var currency_rates = get_currency_rates(tour.id, currency_id).split('-');
 
-            });
+                         var to_currency_rate = currency_rates[0];
 
-            const element = document.querySelector(".c-priceRange");
+                         var from_currency_rate = currency_rates[1];
 
-            if(element!==null){
+                         var final_amount = (parseFloat(to_currency_rate / from_currency_rate * tour.amount));
 
-                clearRange();
 
-            }
 
-        }
+                         ans_arr3.push(final_amount);
 
-        
+                     } else {
 
-    }
+                         ans_arr3.push(parseFloat(tour.amount).toFixed(2));
 
-}
+                     }
 
-function index_page_currencies(){
+                     $('#price_rangevalues').val((ans_arr3));
 
-    var base_url = $('#base_url').val();
+                 });
 
-    var credit_amount = $("#credit_amount_temp").val();
+                 const element = document.querySelector(".c-priceRange");
 
-    var default_currency = $('#global_currency').val();
+                 if (element !== null) {
 
-    if (typeof Storage !== 'undefined') {
+                     clearRange();
 
-      if (localStorage) {
+                 }
 
-        var currency_id = localStorage.getItem('global_currency');
+             }
 
-      } else {
 
-        var currency_id = window.sessionStorage.getItem('global_currency');
 
-      }
+         }
 
-    }
+     }
 
-      
+     function index_page_currencies() {
 
-    final_arr = JSON.parse(sessionStorage.getItem('final_arr'));
+         var base_url = $('#base_url').val();
 
-    var adult_count = 0;
+         var credit_amount = $("#credit_amount_temp").val();
 
-    var child_count = 0;
+         var default_currency = $('#global_currency').val();
 
-    if(final_arr === null){
+         if (typeof Storage !== 'undefined') {
 
-      $('#total_pax').html(2);
+             if (localStorage) {
 
-      $('#room_count').html(1+' Room');
+                 var currency_id = localStorage.getItem('global_currency');
 
-      $('#adult_count').val(2);
+             } else {
 
-      $('#child_count').val(0);
+                 var currency_id = window.sessionStorage.getItem('global_currency');
 
-      $('#dynamic_room_count').val(1);
+             }
 
-    }else{
+         }
 
-      for (var n = 0; n < final_arr.length; n++) {
 
-        adult_count = parseFloat(adult_count) + parseFloat(final_arr[n]['rooms']['adults']);
 
-        child_count = parseFloat(child_count) + parseFloat(final_arr[n]['rooms']['child']);
+         final_arr = JSON.parse(sessionStorage.getItem('final_arr'));
 
-      }
+         var adult_count = 0;
 
-      $('#total_pax').html(adult_count+child_count);
+         var child_count = 0;
 
-      $('#room_count').html(final_arr.length+ ' Rooms');
+         if (final_arr === null) {
 
-      $('#adult_count').val(adult_count);
+             $('#total_pax').html(2);
 
-      $('#child_count').val(child_count);
+             $('#room_count').html(1 + ' Room');
 
-      $('#dynamic_room_count').val(final_arr.length);
+             $('#adult_count').val(2);
 
-    }
+             $('#child_count').val(0);
 
+             $('#dynamic_room_count').val(1);
 
+         } else {
 
-    setTimeout(() => {
+             for (var n = 0; n < final_arr.length; n++) {
 
-      //Hotels for honeymoon costing
+                 adult_count = parseFloat(adult_count) + parseFloat(final_arr[n]['rooms']['adults']);
 
-      var amountClasslist = document.querySelectorAll(".currency-hotel-price");
+                 child_count = parseFloat(child_count) + parseFloat(final_arr[n]['rooms']['child']);
 
-      var amount_list = JSON.parse(sessionStorage.getItem('hotel_price'));
+             }
 
-      if(amount_list !== null && amountClasslist[0] !== undefined){
+             $('#total_pax').html(adult_count + child_count);
 
-        amount_list.map((tour,i)=>{
+             $('#room_count').html(final_arr.length + ' Rooms');
 
-          var currency_rates = get_currency_rates(tour.id,currency_id).split('-');
+             $('#adult_count').val(adult_count);
 
-          var to_currency_rate =  currency_rates[0];
+             $('#child_count').val(child_count);
 
-          var from_currency_rate = currency_rates[1];
+             $('#dynamic_room_count').val(final_arr.length);
 
-          amountClasslist[i].innerHTML =  parseFloat(to_currency_rate / from_currency_rate * tour.amount).toFixed(2);
+         }
 
-        });
 
-      }
 
-      //Credit amount conversion
+         setTimeout(() => {
 
-      var currency_rates = get_currency_rates(default_currency,currency_id).split('-');
+             //Hotels for honeymoon costing
 
-      var to_currency_rate =  currency_rates[0];
+             var amountClasslist = document.querySelectorAll(".currency-hotel-price");
 
-      var from_currency_rate = currency_rates[1];
+             var amount_list = JSON.parse(sessionStorage.getItem('hotel_price'));
 
-      var result = parseFloat(to_currency_rate / from_currency_rate * credit_amount).toFixed(2);
+             if (amount_list !== null && amountClasslist[0] !== undefined) {
 
-      if(!isNaN(result))
+                 amount_list.map((tour, i) => {
 
-      $('#credit_amount').html(result);
+                     var currency_rates = get_currency_rates(tour.id, currency_id).split('-');
 
-      else
+                     var to_currency_rate = currency_rates[0];
 
-      $('#credit_amount').html((0).toFixed(2));
+                     var from_currency_rate = currency_rates[1];
 
+                     amountClasslist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour
+                         .amount).toFixed(2);
 
+                 });
 
-      //Load Currency Icon
+             }
 
-      var currency_icon_lisr = document.querySelectorAll(".currency-icon");
+             //Credit amount conversion
 
-      var cache_currencies = $('#cache_currencies').val();
+             var currency_rates = get_currency_rates(default_currency, currency_id).split('-');
 
-      cache_currencies = JSON.parse(cache_currencies);
+             var to_currency_rate = currency_rates[0];
 
-      var to_currency_rate = (cache_currencies.find(el => el.id === currency_id) !== undefined )?cache_currencies.find(el => el.id === currency_id) : '0';
+             var from_currency_rate = currency_rates[1];
 
-      currency_icon_lisr.forEach(function(item){
+             var result = parseFloat(to_currency_rate / from_currency_rate * credit_amount).toFixed(2);
 
-          item.innerHTML = to_currency_rate.icon;
+             if (!isNaN(result))
 
-      });
+                 $('#credit_amount').html(result);
 
-    },1200);
+             else
 
-}
+                 $('#credit_amount').html((0).toFixed(2));
 
-function transfer_page_currencies(){
 
-    var base_url = $('#base_url').val();
 
-    var credit_amount = $("#credit_amount_temp").val();
+             //Load Currency Icon
 
-    var default_currency = $('#global_currency').val();    
+             var currency_icon_lisr = document.querySelectorAll(".currency-icon");
 
-    if (typeof Storage !== 'undefined') {
+             var cache_currencies = $('#cache_currencies').val();
 
-      if (localStorage) {
+             cache_currencies = JSON.parse(cache_currencies);
 
-        var currency_id = localStorage.getItem('global_currency');
+             var to_currency_rate = (cache_currencies.find(el => el.id === currency_id) !== undefined) ?
+                 cache_currencies.find(el => el.id === currency_id) : '0';
 
-      } else {
+             currency_icon_lisr.forEach(function(item) {
 
-        var currency_id = window.sessionStorage.getItem('global_currency');
+                 item.innerHTML = to_currency_rate.icon;
 
-      }
+             });
 
-    }
+         }, 1200);
 
-    //Load Currency Icon
+     }
 
-    var currency_icon_lisr = document.querySelectorAll(".currency-icon");
+     function transfer_page_currencies() {
 
-    var cache_currencies = JSON.parse($('#cache_currencies').val());
+         var base_url = $('#base_url').val();
 
-    var to_currency_rate = (cache_currencies.find(el => el.id === currency_id) !== undefined )?cache_currencies.find(el => el.id === currency_id) : '0';
+         var credit_amount = $("#credit_amount_temp").val();
 
-    currency_icon_lisr.forEach(function(item){
+         var default_currency = $('#global_currency').val();
 
-        item.innerHTML = to_currency_rate.icon;
+         if (typeof Storage !== 'undefined') {
 
-    });
+             if (localStorage) {
 
-}
+                 var currency_id = localStorage.getItem('global_currency');
 
-function activties_page_currencies(){
+             } else {
 
-    var base_url = $('#base_url').val();
+                 var currency_id = window.sessionStorage.getItem('global_currency');
 
-    var credit_amount = $("#credit_amount_temp").val();
+             }
 
-    var default_currency = $('#global_currency').val();    
+         }
 
-    if (typeof Storage !== 'undefined') {
+         //Load Currency Icon
 
-      if (localStorage) {
+         var currency_icon_lisr = document.querySelectorAll(".currency-icon");
 
-        var currency_id = localStorage.getItem('global_currency');
+         var cache_currencies = JSON.parse($('#cache_currencies').val());
 
-      } else {
+         var to_currency_rate = (cache_currencies.find(el => el.id === currency_id) !== undefined) ? cache_currencies.find(
+             el => el.id === currency_id) : '0';
 
-        var currency_id = window.sessionStorage.getItem('global_currency');
+         currency_icon_lisr.forEach(function(item) {
 
-      }
+             item.innerHTML = to_currency_rate.icon;
 
-    }
+         });
 
-    //Load Currency Icon
+     }
 
-    var currency_icon_lisr = document.querySelectorAll(".currency-icon");
+     function activties_page_currencies() {
 
-    var cache_currencies = JSON.parse($('#cache_currencies').val());
+         var base_url = $('#base_url').val();
 
-    var to_currency_rate = (cache_currencies.find(el => el.id === currency_id) !== undefined )?cache_currencies.find(el => el.id === currency_id) : '0';
+         var credit_amount = $("#credit_amount_temp").val();
 
-    currency_icon_lisr.forEach(function(item){
+         var default_currency = $('#global_currency').val();
 
-        item.innerHTML = to_currency_rate.icon;
+         if (typeof Storage !== 'undefined') {
 
-    });
+             if (localStorage) {
 
-}
+                 var currency_id = localStorage.getItem('global_currency');
 
-function hotel_page_currencies(){
+             } else {
 
-    var base_url = $('#base_url').val();
+                 var currency_id = window.sessionStorage.getItem('global_currency');
 
-    var credit_amount = $("#credit_amount_temp").val();
+             }
 
-    var default_currency = $('#global_currency').val();    
+         }
 
-    if (typeof Storage !== 'undefined') {
+         //Load Currency Icon
 
-      if (localStorage) {
+         var currency_icon_lisr = document.querySelectorAll(".currency-icon");
 
-        var currency_id = localStorage.getItem('global_currency');
+         var cache_currencies = JSON.parse($('#cache_currencies').val());
 
-      } else {
+         var to_currency_rate = (cache_currencies.find(el => el.id === currency_id) !== undefined) ? cache_currencies.find(
+             el => el.id === currency_id) : '0';
 
-        var currency_id = window.sessionStorage.getItem('global_currency');
+         currency_icon_lisr.forEach(function(item) {
 
-      }
+             item.innerHTML = to_currency_rate.icon;
 
-    }
+         });
 
-    //Load Currency Icon
+     }
 
-    var currency_icon_lisr = document.querySelectorAll(".currency-icon");
+     function hotel_page_currencies() {
 
-    var cache_currencies = JSON.parse($('#cache_currencies').val());
+         var base_url = $('#base_url').val();
 
-    var to_currency_rate = (cache_currencies.find(el => el.id === currency_id) !== undefined )?cache_currencies.find(el => el.id === currency_id) : '0';
+         var credit_amount = $("#credit_amount_temp").val();
 
-    currency_icon_lisr.forEach(function(item){
+         var default_currency = $('#global_currency').val();
 
-        item.innerHTML = to_currency_rate.icon;
+         if (typeof Storage !== 'undefined') {
 
-    });
+             if (localStorage) {
 
-}
+                 var currency_id = localStorage.getItem('global_currency');
 
-function currency_converter(){
+             } else {
 
-            var base_url = $('#base_url').val();
+                 var currency_id = window.sessionStorage.getItem('global_currency');
 
-            var default_currency = $('#global_currency').val();
+             }
 
-        
+         }
 
-            if (typeof Storage !== 'undefined') {
+         //Load Currency Icon
 
-              if (localStorage) {
+         var currency_icon_lisr = document.querySelectorAll(".currency-icon");
 
-                var currency_id = localStorage.getItem('global_currency', credit_amount);
+         var cache_currencies = JSON.parse($('#cache_currencies').val());
 
-              } else {
+         var to_currency_rate = (cache_currencies.find(el => el.id === currency_id) !== undefined) ? cache_currencies.find(
+             el => el.id === currency_id) : '0';
 
-                var currency_id = window.sessionStorage.getItem('global_currency', credit_amount);
+         currency_icon_lisr.forEach(function(item) {
 
-              }
+             item.innerHTML = to_currency_rate.icon;
 
-            }
+         });
 
-            //Load Currency Icon
+     }
 
-            var currency_icon_lisr = document.querySelectorAll(".currency-icon");
+     function currency_converter() {
 
-            var cache_currencies = JSON.parse($('#cache_currencies').val());
+         var base_url = $('#base_url').val();
 
-            var to_currency_rate = (cache_currencies.find(el => el.id === currency_id) !== undefined )?cache_currencies.find(el => el.id === currency_id) : '0';
+         var default_currency = $('#global_currency').val();
 
-            currency_icon_lisr.forEach(function(item){
 
-                item.innerHTML = to_currency_rate.icon;
 
-            });
+         if (typeof Storage !== 'undefined') {
 
-            //Get all amounts
+             if (localStorage) {
 
-            var amount_Classlist = document.querySelectorAll(".currency-price");
+                 var currency_id = localStorage.getItem('global_currency', credit_amount);
 
-            var amount_list = JSON.parse(sessionStorage.getItem('amount_list'));
+             } else {
 
-        
+                 var currency_id = window.sessionStorage.getItem('global_currency', credit_amount);
 
-            var pamount_Classlist = document.querySelectorAll(".room-currency-price");
+             }
 
-            var room_price_list = JSON.parse(sessionStorage.getItem('room_price_list'));
+         }
 
-            
+         //Load Currency Icon
 
-            var orgamt_Classlist = document.querySelectorAll(".original-currency-price");
+         var currency_icon_lisr = document.querySelectorAll(".currency-icon");
 
-            var original_amt_list = JSON.parse(sessionStorage.getItem('original_amt_list'));
+         var cache_currencies = JSON.parse($('#cache_currencies').val());
 
-        
+         var to_currency_rate = (cache_currencies.find(el => el.id === currency_id) !== undefined) ? cache_currencies.find(
+             el => el.id === currency_id) : '0';
 
-            var offeramt_Classlist = document.querySelectorAll(".offer-currency-price");
+         currency_icon_lisr.forEach(function(item) {
 
-            var offer_price_list = JSON.parse(sessionStorage.getItem('offer_price_list'));
+             item.innerHTML = to_currency_rate.icon;
 
-        
+         });
 
-            var cartamt_Classlist = document.querySelectorAll(".cart-currency-price");
+         //Get all amounts
 
-            var cart_item_list = JSON.parse(localStorage.getItem('cart_item_list'));
+         var amount_Classlist = document.querySelectorAll(".currency-price");
 
-        
+         var amount_list = JSON.parse(sessionStorage.getItem('amount_list'));
 
-            var bestamt_Classlist = document.querySelectorAll(".best-cost-currency");
 
-            var best_price_list = JSON.parse(sessionStorage.getItem('best_price_list'));
 
-            
+         var pamount_Classlist = document.querySelectorAll(".room-currency-price");
 
-            //Cart Items cost array
+         var room_price_list = JSON.parse(sessionStorage.getItem('room_price_list'));
 
-            if(cart_item_list !== null && cartamt_Classlist[0] !== undefined){
 
-              cart_item_list.map((tour,i)=>{
 
-               
+         var orgamt_Classlist = document.querySelectorAll(".original-currency-price");
 
-                var currency_rates = get_currency_rates(tour.id,currency_id).split('-');
+         var original_amt_list = JSON.parse(sessionStorage.getItem('original_amt_list'));
 
-                var to_currency_rate =  currency_rates[0];
 
-                var from_currency_rate = currency_rates[1];
 
-        
+         var offeramt_Classlist = document.querySelectorAll(".offer-currency-price");
 
-                cartamt_Classlist[i].innerHTML =  parseFloat(to_currency_rate / from_currency_rate * tour.amount).toFixed(2);
+         var offer_price_list = JSON.parse(sessionStorage.getItem('offer_price_list'));
 
-              });
 
-            }
 
-            //Hotel Best lowest cost array
+         var cartamt_Classlist = document.querySelectorAll(".cart-currency-price");
 
-            if(amount_list !== null && amount_Classlist[0] !== undefined){
+         var cart_item_list = JSON.parse(localStorage.getItem('cart_item_list'));
 
-              amount_list.map((tour,i)=>{
 
-        
 
-                var currency_rates = get_currency_rates(tour.id,currency_id).split('-');
+         var bestamt_Classlist = document.querySelectorAll(".best-cost-currency");
 
-                var to_currency_rate =  currency_rates[0];
+         var best_price_list = JSON.parse(sessionStorage.getItem('best_price_list'));
 
-                var from_currency_rate = currency_rates[1];
 
-                amount_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount).toFixed(2);
 
-              });
+         //Cart Items cost array
 
-            }
+         if (cart_item_list !== null && cartamt_Classlist[0] !== undefined) {
 
-            //Hotel Original Cost
+             cart_item_list.map((tour, i) => {
 
-            if(original_amt_list !== null && orgamt_Classlist[0] !== undefined){
 
-              original_amt_list.map((tour,i)=>{
 
-        
+                 var currency_rates = get_currency_rates(tour.id, currency_id).split('-');
 
-                var currency_rates = get_currency_rates(tour.id,currency_id).split('-');
+                 var to_currency_rate = currency_rates[0];
 
-                var to_currency_rate =  currency_rates[0];
+                 var from_currency_rate = currency_rates[1];
 
-                var from_currency_rate = currency_rates[1];
 
-        
 
-                orgamt_Classlist[i].innerHTML =  parseFloat(to_currency_rate / from_currency_rate * tour.amount).toFixed(2);
+                 cartamt_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount)
+                     .toFixed(2);
 
-              });
+             });
 
-            }
+         }
 
-            //Hotel Offer Cost
+         //Hotel Best lowest cost array
 
-            if(offer_price_list !== null && offeramt_Classlist[0] !== undefined){
+         if (amount_list !== null && amount_Classlist[0] !== undefined) {
 
-              offer_price_list.map((tour,i)=>{
+             amount_list.map((tour, i) => {
 
-                var currency_rates = get_currency_rates(tour.id,currency_id).split('-');
 
-                var to_currency_rate =  currency_rates[0];
 
-                var from_currency_rate = currency_rates[1];
+                 var currency_rates = get_currency_rates(tour.id, currency_id).split('-');
 
-        
+                 var to_currency_rate = currency_rates[0];
 
-                offeramt_Classlist[i].innerHTML =  parseFloat(to_currency_rate / from_currency_rate * tour.amount).toFixed(2);
+                 var from_currency_rate = currency_rates[1];
 
-              });
+                 amount_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount)
+                     .toFixed(2);
 
-            }
+             });
 
-            //Best High-Low cost array(Price Range filter) 
+         }
 
-            if(best_price_list !== null){
+         //Hotel Original Cost
 
-              var ans_arr3 = [];
+         if (original_amt_list !== null && orgamt_Classlist[0] !== undefined) {
 
-              best_price_list.map((tour,i)=>{
+             original_amt_list.map((tour, i) => {
 
-                if(i===0)
 
-                  tour.amount = Math.floor(tour.amount);
 
-                else
+                 var currency_rates = get_currency_rates(tour.id, currency_id).split('-');
 
-                  tour.amount = Math.ceil(tour.amount);
+                 var to_currency_rate = currency_rates[0];
 
-                if(tour.id==currency_id){
+                 var from_currency_rate = currency_rates[1];
 
-                  var currency_rates = get_currency_rates(tour.id,currency_id).split('-');
 
-                  var to_currency_rate =  currency_rates[0];
 
-                  var from_currency_rate = currency_rates[1];
+                 orgamt_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount)
+                     .toFixed(2);
 
-                  ans_arr3.push(parseFloat(to_currency_rate / from_currency_rate * tour.amount).toFixed(2));
+             });
 
-                }
+         }
 
-                else{
+         //Hotel Offer Cost
 
-                  ans_arr3.push(parseFloat(tour.amount).toFixed(2));
+         if (offer_price_list !== null && offeramt_Classlist[0] !== undefined) {
 
-                }
+             offer_price_list.map((tour, i) => {
 
-                  
+                 var currency_rates = get_currency_rates(tour.id, currency_id).split('-');
 
-                $('#price_rangevalues').val((ans_arr3));
+                 var to_currency_rate = currency_rates[0];
 
-              });
+                 var from_currency_rate = currency_rates[1];
 
-              const element = document.querySelector(".c-priceRange");
 
-              if(element!==null){
 
-                clearRange();
+                 offeramt_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount)
+                     .toFixed(2);
 
-              }
+             });
 
-            }
+         }
 
-        
+         //Best High-Low cost array(Price Range filter) 
 
-            //Room Category prices
+         if (best_price_list !== null) {
 
-            if(room_price_list !== null && pamount_Classlist[0] !== undefined){
+             var ans_arr3 = [];
 
-              room_price_list.map((tour,i)=>{
+             best_price_list.map((tour, i) => {
 
-        
+                 if (i === 0)
 
-                var currency_rates = get_currency_rates(tour.id,currency_id).split('-');
+                     tour.amount = Math.floor(tour.amount);
 
-                var to_currency_rate =  currency_rates[0];
+                 else
 
-                var from_currency_rate = currency_rates[1];
+                     tour.amount = Math.ceil(tour.amount);
 
-                pamount_Classlist[i].innerHTML =   parseFloat(to_currency_rate / from_currency_rate * tour.amount).toFixed(2);
+                 if (tour.id == currency_id) {
 
-              });
+                     var currency_rates = get_currency_rates(tour.id, currency_id).split('-');
 
-        }
+                     var to_currency_rate = currency_rates[0];
 
-    
+                     var from_currency_rate = currency_rates[1];
 
-}
+                     ans_arr3.push(parseFloat(to_currency_rate / from_currency_rate * tour.amount).toFixed(2));
 
+                 } else {
 
+                     ans_arr3.push(parseFloat(tour.amount).toFixed(2));
 
-function checkout_currency_converter(){
+                 }
 
-	var base_url = $('#base_url').val();
 
-  var default_currency = $('#global_currency').val();
 
-  if (typeof Storage !== 'undefined') {
+                 $('#price_rangevalues').val((ans_arr3));
 
-    if (localStorage) {
+             });
 
-      var currency_id = localStorage.getItem('global_currency');
+             const element = document.querySelector(".c-priceRange");
 
-    } else {
+             if (element !== null) {
 
-      var currency_id = window.sessionStorage.getItem('global_currency');
+                 clearRange();
 
-    }
+             }
 
-  }
+         }
 
-  setTimeout(() => {
 
-    //Load Currency Icon
 
-    var currency_icon_lisr = document.querySelectorAll(".currency-icon");
+         //Room Category prices
 
-    var cache_currencies = JSON.parse($('#cache_currencies').val());
+         if (room_price_list !== null && pamount_Classlist[0] !== undefined) {
 
-    var to_currency_rate = (cache_currencies.find(el => el.id === currency_id) !== undefined )?cache_currencies.find(el => el.id === currency_id) : '0';
+             room_price_list.map((tour, i) => {
 
-    currency_icon_lisr.forEach(function(item){
 
-        item.innerHTML = to_currency_rate.icon;
 
-    });
+                 var currency_rates = get_currency_rates(tour.id, currency_id).split('-');
 
-    //Checkout Page amounts
+                 var to_currency_rate = currency_rates[0];
 
-    var cartp_list = document.querySelectorAll(".checkoutp-currency-price");
+                 var from_currency_rate = currency_rates[1];
 
-    var cart_amount_list = JSON.parse(localStorage.getItem('cart_amount_list'));
+                 pamount_Classlist[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour.amount)
+                     .toFixed(2);
 
-    
+             });
 
-    var carttax_list = document.querySelectorAll(".checkouttax-currency-price");
+         }
 
-    var cart_tax_list = JSON.parse(localStorage.getItem('cart_tax_list'));
 
-    
 
-    var cartt_list = document.querySelectorAll(".checkoutt-currency-price");
+     }
 
-    var cart_total_list = JSON.parse(localStorage.getItem('cart_total_list'));
 
-    
 
-    //Checkout Page Final Pricing amounts
+     function checkout_currency_converter() {
 
-    var cartsubtotal_list = document.querySelectorAll(".checkouttsubtotal-currency-price");
+         var base_url = $('#base_url').val();
 
-    var cart_subtotal_list = JSON.parse(localStorage.getItem('cart_subtotal_list'));
+         var default_currency = $('#global_currency').val();
 
-    
+         if (typeof Storage !== 'undefined') {
 
-    var carttotaltax_list = document.querySelectorAll(".checkoutttaxtotal-currency-price");
+             if (localStorage) {
 
-    var cart_totaltax_list = JSON.parse(localStorage.getItem('cart_totaltax_list'));
+                 var currency_id = localStorage.getItem('global_currency');
 
-    
+             } else {
 
-    var carttotal_list = document.querySelectorAll(".checkouttotal-currency-price");
+                 var currency_id = window.sessionStorage.getItem('global_currency');
 
-    var cart_maintotal_list = JSON.parse(localStorage.getItem('cart_maintotal_list'));
+             }
 
-    
+         }
 
-    var cartgrandt_list = document.querySelectorAll(".checkoutgrandtotal-currency-price");
+         setTimeout(() => {
 
-    var cart_grandtotal_list = localStorage.getItem('cart_grandtotal_list');
+             //Load Currency Icon
 
-    
+             var currency_icon_lisr = document.querySelectorAll(".currency-icon");
 
-    //Checkout Final Pricing Amount cost array
+             var cache_currencies = JSON.parse($('#cache_currencies').val());
 
-    if(cart_subtotal_list !== null && cartsubtotal_list[0] !== undefined){
+             var to_currency_rate = (cache_currencies.find(el => el.id === currency_id) !== undefined) ?
+                 cache_currencies.find(el => el.id === currency_id) : '0';
 
-      cart_subtotal_list.map((tour,i)=>{
+             currency_icon_lisr.forEach(function(item) {
 
-      var currency_rates = get_currency_rates(currency_id,currency_id).split('-');
+                 item.innerHTML = to_currency_rate.icon;
 
-      var to_currency_rate =  currency_rates[0];
+             });
 
-      var from_currency_rate = currency_rates[1];
+             //Checkout Page amounts
 
-      cartsubtotal_list[i].innerHTML =  parseFloat(to_currency_rate / from_currency_rate * tour).toFixed(2);
+             var cartp_list = document.querySelectorAll(".checkoutp-currency-price");
 
-      })
+             var cart_amount_list = JSON.parse(localStorage.getItem('cart_amount_list'));
 
-    }
 
-    //Checkout Tax cost array
 
-    if(cart_totaltax_list !== null && carttotaltax_list[0] !== undefined){
+             var carttax_list = document.querySelectorAll(".checkouttax-currency-price");
 
-      cart_totaltax_list.map((tour,i)=>{
+             var cart_tax_list = JSON.parse(localStorage.getItem('cart_tax_list'));
 
-      var currency_rates = get_currency_rates(currency_id,currency_id).split('-');
 
-      var to_currency_rate =  currency_rates[0];
 
-      var from_currency_rate = currency_rates[1];
+             var cartt_list = document.querySelectorAll(".checkoutt-currency-price");
 
-      carttotaltax_list[i].innerHTML =  parseFloat(to_currency_rate / from_currency_rate * tour).toFixed(2);
+             var cart_total_list = JSON.parse(localStorage.getItem('cart_total_list'));
 
-      })
 
-    }
 
-    //Checkout total cost array
+             //Checkout Page Final Pricing amounts
 
-    if(cart_maintotal_list !== null && carttotal_list[0] !== undefined){
+             var cartsubtotal_list = document.querySelectorAll(".checkouttsubtotal-currency-price");
 
-      cart_maintotal_list.map((tour,i)=>{
+             var cart_subtotal_list = JSON.parse(localStorage.getItem('cart_subtotal_list'));
 
-      var currency_rates = get_currency_rates(currency_id,currency_id).split('-');
 
-      var to_currency_rate =  currency_rates[0];
 
-      var from_currency_rate = currency_rates[1];
+             var carttotaltax_list = document.querySelectorAll(".checkoutttaxtotal-currency-price");
 
-      carttotal_list[i].innerHTML =  parseFloat(to_currency_rate / from_currency_rate * tour).toFixed(2);
+             var cart_totaltax_list = JSON.parse(localStorage.getItem('cart_totaltax_list'));
 
-      })
 
-    }
 
-    //Checkout grand total cost array
+             var carttotal_list = document.querySelectorAll(".checkouttotal-currency-price");
 
-    if(cartgrandt_list !== null){
+             var cart_maintotal_list = JSON.parse(localStorage.getItem('cart_maintotal_list'));
 
-      var currency_rates = get_currency_rates(currency_id,currency_id).split('-');
 
-      var to_currency_rate =  currency_rates[0];
 
-      var from_currency_rate = currency_rates[1];
+             var cartgrandt_list = document.querySelectorAll(".checkoutgrandtotal-currency-price");
 
-      cartgrandt_list[0].innerHTML =  parseFloat(to_currency_rate / from_currency_rate * cart_grandtotal_list).toFixed(2);
+             var cart_grandtotal_list = localStorage.getItem('cart_grandtotal_list');
 
-    }
 
-    //Checkout Amount cost array
 
-    if(cart_amount_list !== null && cartp_list[0] !== undefined){
+             //Checkout Final Pricing Amount cost array
 
-      cart_amount_list.map((tour,i)=>{
+             if (cart_subtotal_list !== null && cartsubtotal_list[0] !== undefined) {
 
-        
+                 cart_subtotal_list.map((tour, i) => {
 
-        var currency_rates = get_currency_rates(tour.id,currency_id).split('-');
+                     var currency_rates = get_currency_rates(currency_id, currency_id).split('-');
 
-        var to_currency_rate =  currency_rates[0];
+                     var to_currency_rate = currency_rates[0];
 
-        var from_currency_rate = currency_rates[1];
+                     var from_currency_rate = currency_rates[1];
 
-        cartp_list[i].innerHTML =  parseFloat(to_currency_rate / from_currency_rate * tour.amount).toFixed(2);
+                     cartsubtotal_list[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate *
+                         tour).toFixed(2);
 
-      });
+                 })
 
-    }
+             }
 
-    //Checkout Tax cost array
+             //Checkout Tax cost array
 
-    if(cart_tax_list !== null && carttax_list[0] !== undefined){
+             if (cart_totaltax_list !== null && carttotaltax_list[0] !== undefined) {
 
-      cart_tax_list.map((tour,i)=>{
+                 cart_totaltax_list.map((tour, i) => {
 
-        
+                     var currency_rates = get_currency_rates(currency_id, currency_id).split('-');
 
-        var currency_rates = get_currency_rates(tour.id,currency_id).split('-');
+                     var to_currency_rate = currency_rates[0];
 
-        var to_currency_rate =  currency_rates[0];
+                     var from_currency_rate = currency_rates[1];
 
-        var from_currency_rate = currency_rates[1];
+                     carttotaltax_list[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate *
+                         tour).toFixed(2);
 
-        carttax_list[i].innerHTML =  parseFloat(to_currency_rate / from_currency_rate * tour.amount).toFixed(2);
+                 })
 
-      });
+             }
 
-    }
+             //Checkout total cost array
 
-    //Checkout total cost array
+             if (cart_maintotal_list !== null && carttotal_list[0] !== undefined) {
 
-    if(cart_total_list !== null && cartt_list[0] !== undefined){
+                 cart_maintotal_list.map((tour, i) => {
 
-      cart_total_list.map((tour,i)=>{
+                     var currency_rates = get_currency_rates(currency_id, currency_id).split('-');
 
+                     var to_currency_rate = currency_rates[0];
 
+                     var from_currency_rate = currency_rates[1];
 
-        var currency_rates = get_currency_rates(tour.id,currency_id).split('-');
+                     carttotal_list[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour)
+                         .toFixed(2);
 
-        var to_currency_rate =  currency_rates[0];
+                 })
 
-        var from_currency_rate = currency_rates[1];
+             }
 
-        cartt_list[i].innerHTML =  parseFloat(to_currency_rate / from_currency_rate * tour.amount).toFixed(2);
+             //Checkout grand total cost array
 
-      });
+             if (cartgrandt_list !== null) {
 
-    }
+                 var currency_rates = get_currency_rates(currency_id, currency_id).split('-');
 
-    //Credit amount conversion
+                 var to_currency_rate = currency_rates[0];
 
-    var credit_amount = $("#credit_amount_temp").val();
+                 var from_currency_rate = currency_rates[1];
 
-    var currency_rates = get_currency_rates(default_currency,currency_id).split('-');
+                 cartgrandt_list[0].innerHTML = parseFloat(to_currency_rate / from_currency_rate *
+                     cart_grandtotal_list).toFixed(2);
 
-    var to_currency_rate =  currency_rates[0];
+             }
 
-    var from_currency_rate = currency_rates[1];
+             //Checkout Amount cost array
 
-    var result = parseFloat(to_currency_rate / from_currency_rate * credit_amount).toFixed(2);
+             if (cart_amount_list !== null && cartp_list[0] !== undefined) {
 
-    if(!isNaN(result))
+                 cart_amount_list.map((tour, i) => {
 
-    $('#credit_amount').html(result);
 
-    else
 
-    $('#credit_amount').html((0).toFixed(2));
+                     var currency_rates = get_currency_rates(tour.id, currency_id).split('-');
 
-  }, 800);
+                     var to_currency_rate = currency_rates[0];
 
-}
+                     var from_currency_rate = currency_rates[1];
 
+                     cartp_list[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour
+                         .amount).toFixed(2);
 
+                 });
 
-</script>
+             }
 
-<!-- <script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/scripts.js"></script> -->
+             //Checkout Tax cost array
+
+             if (cart_tax_list !== null && carttax_list[0] !== undefined) {
+
+                 cart_tax_list.map((tour, i) => {
+
+
+
+                     var currency_rates = get_currency_rates(tour.id, currency_id).split('-');
+
+                     var to_currency_rate = currency_rates[0];
+
+                     var from_currency_rate = currency_rates[1];
+
+                     carttax_list[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour
+                         .amount).toFixed(2);
+
+                 });
+
+             }
+
+             //Checkout total cost array
+
+             if (cart_total_list !== null && cartt_list[0] !== undefined) {
+
+                 cart_total_list.map((tour, i) => {
+
+
+
+                     var currency_rates = get_currency_rates(tour.id, currency_id).split('-');
+
+                     var to_currency_rate = currency_rates[0];
+
+                     var from_currency_rate = currency_rates[1];
+
+                     cartt_list[i].innerHTML = parseFloat(to_currency_rate / from_currency_rate * tour
+                         .amount).toFixed(2);
+
+                 });
+
+             }
+
+             //Credit amount conversion
+
+             var credit_amount = $("#credit_amount_temp").val();
+
+             var currency_rates = get_currency_rates(default_currency, currency_id).split('-');
+
+             var to_currency_rate = currency_rates[0];
+
+             var from_currency_rate = currency_rates[1];
+
+             var result = parseFloat(to_currency_rate / from_currency_rate * credit_amount).toFixed(2);
+
+             if (!isNaN(result))
+
+                 $('#credit_amount').html(result);
+
+             else
+
+                 $('#credit_amount').html((0).toFixed(2));
+
+         }, 800);
+
+     }
+ </script>
+
+ <!-- <script type="text/javascript" src="<?php echo BASE_URL_B2C ?>js/scripts.js"></script> -->
